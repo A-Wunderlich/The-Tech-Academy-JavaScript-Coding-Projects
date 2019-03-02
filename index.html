@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Custom Pizza Maker</title>
+  </head>
+  <body>    
+        <div class="jumbotron text-center mx-4 bg-danger">
+            <h1 class="display-4">Pizza Maker Deluxe</h1>
+            <p class="lead font-weight-bold">Welcome to Pizza Maker Deluxe! Custom build your own pizza by using the options below, review your choices, and press the "Order" when ready and there you
+                have it! Your pizza order will be submitted to your exact specifications!
+            </p>
+        </div>
+        <!-------------------------------ROW 1 CONTAINER-------------------------------------------------------------->
+        <div class="container py-3">
+                <div class="row">
+                <!---------------------------------------------PIZZA SIZE-------------------------------------------------->
+                  <div class="col">
+                        <h3>Pizza Size</h3>
+                        <div class="form-check">
+                            <input class="size" type="radio" name="Size" value="Personal" checked>
+                            <label class="form-check-label">
+                                Personal Size ($6.00)
+                            </label>
+                        </div>
+                            <div class="form-check">
+                            <input class="size" type="radio" name="Size" value="Medium">
+                            <label class="form-check-label">
+                                Medium Size ($10.00)
+                            </label>
+                        </div>
+                        <div class="form-check">
+                                <input class="size" type="radio" name="Size" value="Large">
+                                <label class="form-check-label">
+                                Large Size ($14.00)
+                            </label>
+                        </div>
+                        <div class="form-check">
+                                <input class="size" type="radio" name="Size" value="XLarge">
+                                <label class="form-check-label">
+                                XLarge Size ($16.00)
+                            </label>
+                        </div>
+                    </div>
+                    <!-----------------------------------/PIZZA SIZE------------------------------------------->
+                    <!-----------------------------MEAT TOPPINGS------------------------------------------------->
+                    <div class="col">
+                            <h3>Meat Toppings (first topping free, all others +$1.00 each)</h3>
+                            <div class="form-check">
+                                <input class="meats" type="checkbox" name="Meat" value="Pepperoni">
+                                <label class="form-check-label">
+                                    Pepperoni
+                                </label>
+                                </div>
+                                <div class="form-check">
+                                <input class="meats" type="checkbox" name="Meat" value=" Sausage">
+                                <label class="form-check-label">
+                                    Sausage
+                                </label>
+                            </div>
+                                <div class="form-check">
+                                <input class="meats" type="checkbox" name="Meat" value=" Canadian Bacon">
+                                <label class="form-check-label">
+                                        Canadian Bacon
+                                </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="meats" type="checkbox" name="Meat" value=" Ground Beef">
+                                    <label class="form-check-label">
+                                        Ground Beef
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                    <input class="meats" type="checkbox" name="Meat" value=" Anchovy">
+                                    <label class="form-check-label">
+                                            Anchovy
+                                    </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="meats" type="checkbox" name="Meat" value=" Chicken">
+                                        <label class="form-check-label">
+                                            Chicken
+                                </label>
+                            </div>
+                            
+                    </div>
+                    <!-----------------------------------/MEAT TOPPINGS-------------------------------->
+                </div>
+        </div>
+        <!-------------------------------ROW 2 CONTAINER------------------------------------------------------------------>
+        <div class="container bg-danger rounded-lg py-3">
+                <div class="row">
+                <!---------------------------------------------PIZZA CRUST-------------------------------------------------->
+                  <div class="col">
+                        <h3>Crust style</h3>
+                        <div class="form-check">
+                            <input class="crust" type="radio" name="Crust" value="Plain crust" checked>
+                            Plain Crust
+                        </div>
+                            <div class="form-check">
+                                <input class="crust" type="radio" name="Crust" value="Garlic butter crust">
+                                Garlic Butter Crust
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="crust" type="radio" name="Crust" value="Cheese Stuffed Crust">
+                            Cheese Stuffed Crust ($3.00 extra)
+                        </div>
+                        <div class="form-check">
+                            <input class="crust" type="radio" name="Crust" value="Spicy Crust">
+                            Spicy Crust
+                        </div>
+                        <div class="form-check">
+                            <input class="crust" type="radio" name="Crust" value="House Special Crust">
+                            House Specal Crust
+                        </div>
+                    </div>
+                    <!-----------------------------------/PIZZA CRUST------------------------------------------->
+                    <!-----------------------------VEG TOPPINGS------------------------------------------------->
+                    <div class="col">
+                        <h3>Veggie Toppings (first topping free, all others +$1.00 each)</h3>
+                        <div class="form-check">
+                            <input class="veggie" type="checkbox" name="Veggie" value="Tomatoes">
+                                Tomatoes
+                            </div>
+                            <div class="form-check">
+                            <input class="veggie" type="checkbox" name="Veggie" value=" Onions">
+                                Onions
+                            </div>
+                            <div class="form-check">
+                            <input class="veggie" type="checkbox" name="Veggie" value=" Olives">
+                                Olives
+                            </div>
+                            <div class="form-check">
+                            <input class="veggie" type="checkbox" name="Veggie" value=" Green Peppers">
+                                Green Peppers
+                            </div>                            
+                            <div class="form-check">
+                            <input class="veggie" type="checkbox" name="Veggie" value=" Mushrooms">
+                                Mushrooms
+                            </div>
+                            <div class="form-check">
+                            <input class="veggie" type="checkbox" name="Veggie" value=" Pineapple">
+                                Pineapple
+                            </div>
+                            <div class="form-check">
+                            <input class="veggie" type="checkbox" name="Veggie" value=" Spinach">
+                                Spinach
+                            </div>
+                            <div class="form-check">
+                            <input class="veggie" type="checkbox" name="Veggie" value=" Jalapenos">
+                                Jalapenos
+                            </div>
+                        </div>
+                    <!-----------------------------------/VEG TOPPINGS-------------------------------->
+                </div>
+        </div>
+        <!---------------------------------------/ROW 2 CONTAINER------------------------------------------------>
+        <!----------------------------------------ROW 3 CONTAINER------------------------------------------------>
+        <div class="container">
+                <div class="row">
+                        <!---------------------------------------------PIZZA SAUCE-------------------------------------------------->
+                        <div class="col">
+
+                                <h3>Pizza Sauces</h3>
+
+                                <div class="form-check">
+                                    <input class="sauce" type="radio" name="Sauce" value="Marinara Sauce" checked>
+                                    Marinara Sauce
+                                </div>
+                                <div class="form-check">
+                                    <input class="sauce" type="radio" name="Sauce" value="White Sauce">
+                                    White Sauce
+                                </div>
+                                <div class="form-check">
+                                    <input class="sauce" type="radio" name="Sauce" value="Barbque Sauce">
+                                    Barbque Sauce
+                                </div>
+                                <div class="form-check">
+                                    <input class="sauce" type="radio" name="Sauce" value="No Sauce">
+                                    No Sauce
+                                </div>
+                                
+                            </div>
+                            <!-----------------------------------/PIZZA CRUST------------------------------------------->
+                            <!-----------------------------VEG TOPPINGS------------------------------------------------->
+                            <div class="col">
+
+                                <h3>Cheese Amount</h3>
+
+                                <div class="form-check">
+                                    <input class="cheese" type="radio" name="Cheese" value="Regular Cheese" checked>
+                                    Regular Cheese
+                                </div>
+                                <div class="form-check">
+                                    <input class="cheese" type="radio" name="Cheese" value="No Cheese">
+                                    No Cheese
+                                </div>
+                                <div class="form-check">
+                                    <input class="cheese" type="radio" name="Cheese" value="Extra Cheese">
+                                    Extra Cheese ($3.00 extra)
+                                </div>
+
+                            </div>
+                            <!-----------------------------------/VEG TOPPINGS-------------------------------->
+                        </div>
+                </div>
+                <!---------------------------------------/ROW 3 CONTAINER------------------------------------------------>
+
+                <div class="container bg-danger rounded-lg py-3">
+                        <button type="button" class="btn btn-light" onclick="getReceipt()">Order</button>
+                        <div id="cart">
+                            <div id="showText"></div>
+                            <div id="totalPrice"></div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <script>
+
+    function getReceipt() {
+	// This initializes our string so it can get passed from  
+	// function to function, growing line by line into a full receipt
+	var text1 = "<h3>You Ordered:</h3>";
+	var runningTotal = 0;
+	var sizeTotal = 0;
+	var sizeArray = document.getElementsByClassName("size");
+	for (var i = 0; i < sizeArray.length; i++) {
+		if (sizeArray[i].checked) {
+			var selectedSize = sizeArray[i].value;
+		}
+	}
+	if (selectedSize === "Personal") {
+		sizeTotal = 6;
+	} else if (selectedSize === "Medium") {
+		sizeTotal = 10;
+	} else if (selectedSize === "Large") {
+		sizeTotal = 14;
+	} else if (selectedSize === "XLarge") {
+		sizeTotal = 16;
+    }
+    runningTotal = sizeTotal;
+    text1 = text1+"Size: "+selectedSize+"&nbsp&nbsp&nbsp"+"+$"+sizeTotal+".00"+"<br>";
+	console.log(selectedSize+" = $"+sizeTotal+".00");
+	console.log("size text1: "+text1);
+	console.log("subtotal: $"+runningTotal+".00");
+    getMeat(runningTotal,text1); // All three of these variables will be passed on to each function
+    
+
+    function getMeat(runningTotal,text1) {
+        var meatTotal = 0;
+        var selectedMeat = [];
+        var meatArray = document.getElementsByClassName("meats");
+        for (var j = 0; j < meatArray.length; j++) {
+            if (meatArray[j].checked) {
+                selectedMeat.push(meatArray[j].value);
+                console.log("selected meat item: ("+meatArray[j].value+")");
+            }
+        }
+        var meatCount = selectedMeat.length;
+        if (meatCount > 1) {
+            meatTotal = (meatCount - 1);
+        } else {
+            meatTotal = 0;
+        }
+        text1 = text1+"Meat: "+selectedMeat+"&nbsp&nbsp&nbsp"+"+$"+meatTotal+".00"+"<br>";
+        runningTotal = (runningTotal + meatTotal);
+        console.log("total selected meat items: "+meatCount);
+        console.log(meatCount+" meat - 1 free meat = "+"$"+meatTotal+".00");
+        console.log("meat text1: "+text1);
+        console.log("Purchase Total: "+"$"+runningTotal+".00");
+        getCrust(runningTotal,text1)
+    };
+    
+    
+    function getCrust(runningTotal,text1) {
+        var crustTotal= 0;
+        var crustArray = document.getElementsByClassName("crust");
+        for (var k = 0; k < crustArray.length; k++) {
+		if (crustArray[k].checked) {
+			var selectedCrust = crustArray[k].value;
+		}
+	}
+        if (selectedCrust ==="Cheese Stuffed Crust") {
+            crustTotal = 3;
+            } else {
+                crustTotal = 0;
+            }
+        text1 = text1+"Crust: "+selectedCrust+"&nbsp&nbsp&nbsp"+"+$"+crustTotal+".00"+"<br>";
+        runningTotal = (runningTotal + crustTotal);
+        getVeggie(runningTotal,text1)
+        };
+
+
+    function getVeggie(runningTotal, text1) {
+        var vegTotal = 0;
+        var selectedVeg = [];
+        var vegArray = document.getElementsByClassName("veggie");
+        for (var m = 0; m < vegArray.length; m++) {
+            if (vegArray[m].checked) {
+                selectedVeg.push(vegArray[m].value);
+            }
+        }
+        var vegCount = selectedVeg.length;
+        if (vegCount > 1) {
+            vegTotal = (vegCount - 1);
+        } else {
+            vegTotal = 0;
+        }
+        ;
+        runningTotal = (runningTotal + vegTotal);
+        text1 = text1+"Veggie: "+selectedVeg+"&nbsp&nbsp&nbsp"+"+$"+vegTotal+".00"+"<br>"
+        getSauce(runningTotal,text1);
+    };
+    
+
+    function getSauce(runningTotal,text1) {
+        var sauceArray = document.getElementsByClassName("sauce");
+        for (var n = 0; n <sauceArray.length; n++) {
+		if (sauceArray[n].checked) {
+			var selectedSauce = sauceArray[n].value;
+			text1 = text1+"Sauce: "+selectedSauce+"<br>";
+            }
+        }
+        runningTotal = runningTotal;
+        getCheese(runningTotal,text1);
+        
+    };
+
+
+    function getCheese(runningTotal,text1) {
+        var cheeseTotal = 0;
+        var cheeseArray = document.getElementsByClassName("cheese");
+        for (var p = 0; p < cheeseArray.length; p++) {
+            if (cheeseArray[p].checked) {
+                selectedCheese = cheeseArray[p].value;
+            
+            }
+        }
+        if (selectedCheese === "Extra Cheese") {
+            cheeseTotal = 3;
+        } else {  
+            cheeseTotal = 0;
+        }  
+        runningTotal =(runningTotal+cheeseTotal);
+        text1 = text1+"Cheese: "+selectedCheese+"&nbsp&nbsp&nbsp"+"+$"+cheeseTotal+".00"+"<br>"
+        document.getElementById("showText").innerHTML=text1;
+        document.getElementById("totalPrice").innerHTML = "</h3>Total: <strong>$"+runningTotal+".00"+"</strong></h3>";
+    };
+
+
+
+
+
+}
+
+
+
+
+    		
+
+
+</script>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
